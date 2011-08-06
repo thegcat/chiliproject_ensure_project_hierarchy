@@ -45,9 +45,9 @@ tracker with information about where you are stuck.
 
 * The validation should be moved from the projects controller to the model
 * The parent project drop-down on the project settings page contains all
-projects the user can set the parent project to, though as the project
-identifier is frozen, only the project's parents satisfy the identifier
-hierarchy condition.
+  projects the user can set the parent project to, though as the project
+  identifier is frozen, only the project's parents satisfy the identifier
+  hierarchy condition.
 
 == License
 
