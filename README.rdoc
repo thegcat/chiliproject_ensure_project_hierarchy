@@ -1,6 +1,10 @@
 = ChiliProject Ensure Project Hierarchy Plugin
 
-This plugin ensures subproject identifiers are prefixes with their parent project's identifier.
+This plugin ensures subproject identifiers are prefixes with their parent
+project's identifier.
+
+WARNING: Admins are still allowed to set any identifier regardless of the parent
+project.
 
 == Requirements
 
@@ -37,6 +41,13 @@ You should be able to execute the tests with
 If these instructions are insufficient, please open a ticket in the GitHub issue
 tracker with information about where you are stuck.
 
+== Known issues
+
+* The validation should be moved from the projects controller to the model
+* The parent project drop-down on the project settings page contains all
+projects the user can set the parent project to, though as the project
+identifier is frozen, only the project's parents satisfy the identifier
+hierarchy condition.
 
 == License
 

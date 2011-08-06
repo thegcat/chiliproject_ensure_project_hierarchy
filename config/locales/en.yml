@@ -1,0 +1,6 @@
+# English strings go here for Rails i18n
+en:
+  activerecord:
+    errors:
+      messages:
+        prefix_invalid: "must start with \"%{prefix}\""

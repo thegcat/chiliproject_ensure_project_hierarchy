@@ -1,0 +1,6 @@
+# German strings go here for Rails i18n
+de:
+  activerecord:
+    errors:
+      messages:
+        prefix_invalid: "muss den Präfix \"%{prefix}\" haben"
